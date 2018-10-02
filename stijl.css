@@ -24,9 +24,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 
-ol, ul {
-	list-style: none;
-}
+
 
 blockquote, q {	
 	quotes: none;
@@ -68,11 +66,6 @@ h4 {
 	text-align: center;
 	}
 	
-video {
-    width: 100%;
-    height: auto;
-	}
-	
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -81,7 +74,9 @@ ul.topnav {
     background-color: #333;
 }
 
-ul.topnav li {float: left;}
+ul.topnav li {
+	float: left;
+}
 
 ul.topnav li a {
     display: block;
@@ -91,12 +86,12 @@ ul.topnav li a {
     text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: black;}
-
-ul.topnav li.right {float: right;}
+ul.topnav li a:hover{
+	background-color: #111;
+}
 
 @media screen and (max-width: 600px){
-    ul.topnav li.right, 
+
     ul.topnav li {float: none;}
 }
 
@@ -116,6 +111,7 @@ header h1{
 	font-family:old_stamper;
 	color:white;
 	font-size:64px;
+	position: center;
 }
 
 
