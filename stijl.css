@@ -134,6 +134,11 @@ header h1 {
 	src: url(old_stamper.ttf)
 }
 
+@font-face {
+	font-family:body;
+	src: url(body.ttf)
+}
+
 .multiplebackground {
   min-height: 100vh;
   background: linear-gradient(to bottom, white 0%, white 40%, grey 40%, gray 80%, black 80%, black 100%);
@@ -156,5 +161,9 @@ header h1 {
     top: 140%;
     left: 10%;
     transform: translate(-50%, -50%);
+ }
+ 
+ .lettertype {
+	 font-family: body
  }
  
