@@ -45,6 +45,8 @@ table {
 body, html {
     margin: 0;
 	padding: 0;
+    font-family: body;
+    font-size: 25px;
 }
 
 a:link {
@@ -70,14 +72,6 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
-
-h3 {
-	text-align: center;
-}
-
-h4 {
-	text-align: center;
-	}
 	
 ul.topnav {
     list-style-type: none;
@@ -124,7 +118,7 @@ header h1 {
     left: 50%;
     transform: translate(-50%, -50%);
 	font-family:old_stamper;
-	font-size: 64px;
+	font-size: 70px;
 }
 
 
@@ -139,31 +133,36 @@ header h1 {
 	src: url(body.ttf)
 }
 
-.multiplebackground {
-  min-height: 100vh;
-  background: linear-gradient(to bottom, white 0%, white 40%, grey 40%, gray 80%, black 80%, black 100%);
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
-.onder {
-	font-family:arial;
-	color: white;
-	position: absolute;
-    top: 140%;
-    left: 5%;
-    transform: translate(-50%, -50%);
-}
  .undernav {
 	font-family:arial;
+	font-size: 15px;
 	color: white;
 	position: absolute;
     top: 140%;
     left: 10%;
     transform: translate(-50%, -50%);
  }
- 
- .lettertype {
-	 font-family: body
- }
- 
+
+.main1 {
+    width: 100%;
+    padding: 15px;
+    background-color: white;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    font-family:arial;
+	font-size: 15px;
+	color: white;
+	position: absolute;   
+    padding-top: 15PX;    
+    padding-bottom: 15PX;
+    text-align: center;
+}
+
+
+
+.onder {
+    text-align: center;
+}
