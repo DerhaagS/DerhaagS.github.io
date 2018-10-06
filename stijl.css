@@ -11,8 +11,8 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
+	margin: 10;
+	padding: 10;
 	border: 0;
 	font: inherit;
 	vertical-align: baseline;
@@ -118,7 +118,7 @@ header h1 {
     left: 50%;
     transform: translate(-50%, -50%);
 	font-family:old_stamper;
-	font-size: 70px;
+	font-size: 60px;
 }
 
 
@@ -131,6 +131,11 @@ header h1 {
 @font-face {
 	font-family:body;
 	src: url(body.ttf)
+}
+
+@font-face {
+	font-family:logo;
+	src: url(logo.ttf)
 }
 
  .undernav {
@@ -165,4 +170,43 @@ footer {
 
 .onder {
     text-align: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.submit[type=submit] {
+    background-color: dimgray;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit[type=submit]:hover {
+    background-color: darkslategray;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.logo {
+    font-family: logo;
+    font-size: 40px;
+}
+
+.msgsend {
+    font-size: 40px;
 }
