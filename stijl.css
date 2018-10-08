@@ -164,8 +164,8 @@ footer {
 	font-size: 15px;
 	color: white;
 	position: absolute;   
-    padding-top: 15PX;    
-    padding-bottom: 15PX;
+    padding-top: 25PX;    
+    padding-bottom: 25PX;
     text-align: center;
 }
 
@@ -212,4 +212,9 @@ input[type=text], select, textarea {
 
 .msgsend {
     font-size: 40px;
+}
+
+.WordSection1 {
+    font-family: times;
+    font-size: 25px;
 }
