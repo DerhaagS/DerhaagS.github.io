@@ -152,8 +152,7 @@ header h1 {
  }
 
 .main1 {
-    width: 100%;
-    padding: 0;
+	margin: 20px;
     background-color: white;
 }
 
@@ -163,7 +162,8 @@ footer {
     font-family:arial;
 	font-size: 15px;
 	color: white;
-	position: absolute;   
+	position: absolute; 
+	margin-bottom: 0px;
     padding-top: 25PX;    
     padding-bottom: 25PX;
     text-align: center;
