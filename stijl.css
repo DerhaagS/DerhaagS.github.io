@@ -163,7 +163,7 @@ footer {
 	font-size: 15px;
 	color: white;
 	position: absolute; 
-	margin-bottom: 0px;
+	margin-top: 11.6%;
     padding-top: 25PX;    
     padding-bottom: 25PX;
     text-align: center;
@@ -217,4 +217,16 @@ input[type=text], select, textarea {
 .WordSection1 {
     font-family: times;
     font-size: 25px;
+}
+
+.foto1 {
+    height: 400px;
+	width:100%;
+	background: url("foto1.png") center center no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.contactmsg {
+    text-align: center;
 }
