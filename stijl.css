@@ -157,16 +157,15 @@ header h1 {
 }
 
 footer {
+    width: 100%;
     background-color: black;
     font-family:arial;
 	font-size: 15px;
 	color: white;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-    padding-bottom: 20px;
-    padding-top: 20px;
+	position: absolute; 
+	margin-bottom: 0px;
+    padding-top: 25PX;    
+    padding-bottom: 25PX;
     text-align: center;
 }
 
@@ -218,9 +217,4 @@ input[type=text], select, textarea {
 .WordSection1 {
     font-family: times;
     font-size: 25px;
-}
-
-#page-container {
-    position: relative;
-    min-height: 44.55vh;
 }
